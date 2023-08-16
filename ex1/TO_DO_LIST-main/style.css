@@ -1,0 +1,40 @@
+.outerbody{
+    background-color:rgba(169, 128, 236, 0.4);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerbody{
+    background-color:rgba(92, 65, 110, 0.1);
+    padding: 20px;
+    height:auto;
+     width:auto; 
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     border-radius: 10px;
+     box-shadow:inset 5px .5px 40px 5px rgba(147, 99, 236, 0.3);
+      
+}
+.Tasklist{
+    margin: 10px;
+    display: flex;
+
+}
+#tasklist{
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+}
+.tasklist{
+    padding-right: 10px;
+}
+.todolist>div>input{
+    border: none;
+    border-radius: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration:solid;
+    padding: 10px;
+}

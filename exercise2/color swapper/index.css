@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(42, 144, 190, 0.4);
+  
+}
+img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  
+}
+
+#imageContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}

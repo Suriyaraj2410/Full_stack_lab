@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cgpa Calculator</title>
+</head>
+
+<body>
+    <div class="innerbody">
+        <div class="marks">
+            <label> Enter the exteral mark </label>
+            <input type="number" name="mrarks" id="external" onblur="check(event)">
+            <br>
+            <br>
+            <label>enter the internal marks</label>
+            <input type="number" id="internal" onblur="check(event)">
+        </div>
+        <br>
+        <div class="mode">
+          <select onblur="fix_mode()" id="selected">
+            <option>
+                auto
+            </option>
+            <option>
+                manual
+            </option>
+          </select>
+  
+        </div>
+        <div id="weigth">
+
+        </div>
+       
+
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

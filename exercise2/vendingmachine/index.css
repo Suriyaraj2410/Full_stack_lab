@@ -1,0 +1,89 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(245, 108, 108);
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+  }
+  
+  #cart {
+    position: absolute;
+    background-color: aliceblue;
+    padding: 20px;
+    right: 5%;
+    top: 5%;
+    visibility: hidden;
+  }
+  
+  .products {
+    padding: 20px;
+
+    display: flex;
+  
+    justify-content: center;
+    gap: 15px;
+  }
+  .product {
+    width: auto;
+  
+    padding: 20px;
+    text-align: center;
+    height: auto;
+   background-color: black;
+   color: antiquewhite;
+  }
+  
+  
+  
+  nav {
+    height: auto;
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+  }
+  .navButton {
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: none;
+    background-color: aliceblue;
+  }
+  .navButton > span {
+    border: 1px solid black;
+    width: 30px;
+    height: 0;
+    margin: -4px;
+  }
+  img {
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+  }
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    font-weight: 800;
+    font-size: 90%;
+  }
+  
+  #stocks {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255, 0.1);
+
+    color: black;
+  }

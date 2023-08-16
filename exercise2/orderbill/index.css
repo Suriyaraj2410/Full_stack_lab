@@ -1,0 +1,33 @@
+
+input,
+select {
+  width: 240px;
+  height: 40px;
+
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+}
+.body {
+  height: 60%;
+  width: 70%;
+
+  margin: 10px;
+  text-align: center;
+
+}
+.contents {
+  margin: 20px auto;
+  width: 80%;
+}
+
+h1{
+  color: aliceblue;
+}
